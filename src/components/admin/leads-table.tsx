@@ -12,7 +12,7 @@ import {
   Select, SelectContent, SelectItem, SelectTrigger, SelectValue,
 } from "@/components/ui/select";
 import {
-  STATUS_LABELS, STATUS_COLORS, formatDate, formatRelativeTime, exportToCSV,
+  STATUS_LABELS, STATUS_COLORS, formatRelativeTime, exportToCSV,
 } from "@/lib/utils";
 import type { LeadWithRelations, Trip, User, LeadStatus } from "@/types/database";
 

@@ -81,7 +81,7 @@ export default async function LeadsPage({
         pageSize={PAGE_SIZE}
         trips={trips}
         users={users}
-        currentParams={params}
+        currentParams={params as Record<string, string | undefined>}
       />
     </div>
   );
