@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 45 60% 97%;
+    --foreground: 20 5% 10%;
+    --card: 45 60% 99%;
+    --card-foreground: 20 5% 10%;
+    --popover: 45 60% 99%;
+    --popover-foreground: 20 5% 10%;
+    --primary: 19 69% 50%;
+    --primary-foreground: 45 60% 97%;
+    --secondary: 20 5% 10%;
+    --secondary-foreground: 45 60% 97%;
+    --muted: 40 20% 92%;
+    --muted-foreground: 20 5% 45%;
+    --accent: 40 30% 88%;
+    --accent-foreground: 20 5% 10%;
+    --destructive: 0 72% 51%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 40 20% 85%;
+    --input: 40 20% 85%;
+    --ring: 19 69% 50%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-cream text-ink;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold;
+  }
+}
+
+@layer utilities {
+  .nomichi-gradient {
+    background: linear-gradient(135deg, #D55D27 0%, #45471D 100%);
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
