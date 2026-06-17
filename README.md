@@ -84,11 +84,11 @@ After creating users in Supabase Auth:
 
 | Email | Password | Role |
 |---|---|---|
-| priya@thenomichi.com | (set in Supabase Auth) | Admin |
-| arjun@thenomichi.com | (set in Supabase Auth) | Associate |
-| leela@thenomichi.com | (set in Supabase Auth) | Associate |
+| pranaykumarakuthota@gmail.com | Pranay@3124 | Admin |
+| priya@gmail.com | Priya@8874 | Associate |
+| suraj23@gmail.com | Suraj@34 | Associate |
 
-Admin login: `/login`
+login: Team login
 
 ---
 
